@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LAYOUT</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel = "stylesheet " herf = " css/style.css">
+
+  <style>
+
+    body {
+
+      background-image: url('ag.jpg');
+    }
+#fillform {
+  margin-top: 20px;
+  margin-bottom: 100px;
+  margin-right: 150px;
+  margin-left: 80px;
+     }
+  </style>
+  
+</head>
+</head>
+<body>
+<!------Toast Message ------------------------------------------------------------------------------------------------->
+
+<!------------------------------------------------------------------------------------------------------->
+<nav class="navbar navbar-dark bg-primary">
+  <a class="logo" href="#" img src="img/fasallogo.png"></a>
+  <div class="container-fluid">
+    <a class="navbar-brand"> <strong> Fasal.AI </strong></a>
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+  <!-----------------for filiing the form ----------------------->
+  <form id = "fillform" method="post">
+
+    <center><h3>Insert the value </h3> </center>
+
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Nitrogen</label>
+    <input type="varchar" class="form-control"  Name ="Nitrogen ">
+  </div>
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Phosphorous</label>
+      <input type="varchar" class="form-control" aria-describedby="emailHelp" name = "Phosphorous">
+    </div>
+      
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Potassium</label>
+      <input type="varchar" class="form-control"  Name = "Potassium">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Temperature in Celsius</label>
+      <input type="varchar" class="form-control"  Name = "Temperature">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Relative Humidity</label>
+      <input type="varchar" class="form-control"  Name = "Relhum">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">PH Value of the Soil</label>
+      <input type="varchar" class="form-control"  Name = "ph">
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Rainfall in mm</label>
+      <input type="varchar" class="form-control"  Name = "Rainfall">
+    </div>
+
+    <center><button type="submit" name = "save" class="btn btn-primary">Submit</button></center>
+  </form>
+  
+</body>
+</html>
